@@ -1,0 +1,17 @@
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\First2DGame.deps.json
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\First2DGame.runtimeconfig.json
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\First2DGame.dll
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\First2DGame.pdb
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.csproj.AssemblyReference.cache
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.AssemblyInfoInputs.cache
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.AssemblyInfo.cs
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.csproj.CoreCompileInputs.cache
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.csproj.CopyComplete
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.dll
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\refint\First2DGame.dll
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.pdb
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\First2DGame.genruntimeconfig.cache
+C:\Users\Mirukk\Documents\GoDot\First2DGame\.godot\mono\temp\obj\Debug\ref\First2DGame.dll

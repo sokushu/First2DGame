@@ -1,0 +1,58 @@
+[gd_scene load_steps=7 format=3 uid="uid://ix5pe51xbk3s"]
+
+[ext_resource type="Script" path="res://Main.cs" id="1_u2x2x"]
+[ext_resource type="PackedScene" uid="uid://bex2qapac6oij" path="res://RES/Mob.tscn" id="2_w7nag"]
+[ext_resource type="PackedScene" uid="uid://bcdpeyutf61be" path="res://RES/Player.res" id="3_7env3"]
+[ext_resource type="PackedScene" uid="uid://ddghtk8wcwion" path="res://RES/HUD.tscn" id="4_lc4pm"]
+[ext_resource type="AudioStream" uid="uid://m6p7nujdlu4l" path="res://dodge_assets/art/House In a Forest Loop.ogg" id="5_taf4f"]
+
+[sub_resource type="Curve2D" id="Curve2D_1le3s"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 480, 0, 0, 0, 0, 0, 480, 720, 0, 0, 0, 0, 0, 720, 0, 0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_u2x2x")
+MobScene = ExtResource("2_w7nag")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -32.0
+offset_top = -28.0
+offset_right = 526.0
+offset_bottom = 809.0
+size_flags_horizontal = 4
+color = Color(0.996078, 0.835294, 0.835294, 1)
+
+[node name="Player" parent="." instance=ExtResource("3_7env3")]
+position = Vector2(240, 450)
+
+[node name="MobTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="ScoreTimer" type="Timer" parent="."]
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(240, 450)
+
+[node name="MobPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_1le3s")
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
+
+[node name="HUD" parent="." instance=ExtResource("4_lc4pm")]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_taf4f")
+autoplay = true
+
+[connection signal="Hit" from="Player" to="." method="GameOver"]
+[connection signal="timeout" from="MobTimer" to="." method="OnMobTimerTimeout"]
+[connection signal="timeout" from="ScoreTimer" to="." method="OnScoreTimerTimeout"]
+[connection signal="timeout" from="StartTimer" to="." method="OnStartTimerTimeout"]
+[connection signal="StartGame" from="HUD" to="." method="NewGame"]
+[connection signal="finished" from="AudioStreamPlayer2D" to="." method="MusicStart"]

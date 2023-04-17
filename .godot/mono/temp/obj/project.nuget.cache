@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/LGt0NiIcfW7ognZStzQf+KYHVs14ihGFBCZ34WgBISIIlDO9BrB71y9Y4FOuwOWIyTS8lJ4VUZgKwQ6qoc5TA==",
+  "success": true,
+  "projectFilePath": "C:\\USERS\\MIRUKK\\DOCUMENTS\\GODOT\\FIRST2DGAME\\First2DGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mirukk\\.nuget\\packages\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
+    "C:\\Users\\Mirukk\\.nuget\\packages\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
+    "C:\\Users\\Mirukk\\.nuget\\packages\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
